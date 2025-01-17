@@ -58,7 +58,7 @@ JWT_PRIVATE=undecipher_key#0987654
 
 ### POST - /auth/signup/
 > Register the user
-```JSON
+```JS
 // request payload
 {
 	"name": "string",
@@ -69,7 +69,7 @@ JWT_PRIVATE=undecipher_key#0987654
 
 ### POST - /auth/signin/
 > Signin the user
-```JSON
+```JS
 // request payload
 {
 	"mobile": "string",
